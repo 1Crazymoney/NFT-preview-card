@@ -1,74 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Outfit, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Outfit, sans-serif;
 }
 
 h3 {
-    color: white;
-    margin-bottom: 0.5rem;
+  color: white;
+  margin-bottom: 0.5rem;
 }
 
 p {
-    color: hsl(215, 51%, 70%);
-    line-height: 1.6;
-    font-size: 16px;
+  color: hsl(215, 51%, 70%);
+  line-height: 1.6;
+  font-size: 16px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+  color: rgb(230, 230, 230);
 }
 
-
-.head a:hover, a:active {
-    color: hsl(178, 100%, 50%);
+.head a:hover,
+a:active {
+  color: hsl(178, 100%, 50%);
 }
 
-.head a:link, a:visited {
-    color: white;
+.head a:link,
+a:visited {
+  color: white;
 }
 
-.creator a:hover, a:active {
-    color: hsl(178, 100%, 50%);
+.creator a:hover,
+a:active {
+  color: hsl(178, 100%, 50%);
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .img-hover {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 
 #main-img {
-    display: block;
-    width: 100%;
-    height: auto;
-   
-    border-radius: 0.5rem;
-    margin-bottom: 1rem;
+  display: block;
+  width: 100%;
+  height: auto;
+
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .middle {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 0.5rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
 }
 
 .img-hover:hover .middle {
-    opacity: 1;
+  opacity: 1;
 }
 
 .view {
@@ -78,73 +81,69 @@ img {
   transform: translate(-50%, -50%);
 }
 
-
-
 body {
-    background-color: hsl(217, 54%, 11%);
+  background-color: hsl(217, 54%, 11%);
 }
 
 .container {
-    max-width: 1440px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .product {
-    padding: 1.2rem;
-    width: 300px;
-    height: 530px;
-    background-color:  hsl(216, 50%, 16%);
-    border-radius: 1rem;
-    box-shadow: 0px 30px 60px 30px hsl(214, 49%, 8%);
+  padding: 1.2rem;
+  width: 300px;
+  height: 530px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 1rem;
+  box-shadow: 0px 30px 60px 30px hsl(214, 49%, 8%);
 }
 
 .description {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .topprise {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 12px;
-    margin-bottom: 0.5rem; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  margin-bottom: 0.5rem;
 }
 
 .topprise img {
-    margin-right: 0.2rem;
+  margin-right: 0.2rem;
 }
 
 .eth {
-    color: hsl(178, 100%, 50%);
-    font-weight: 600;
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
 }
 
 .time {
-    color: hsl(215, 51%, 70%);
+  color: hsl(215, 51%, 70%);
 }
 
-
 .creator {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 1rem 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem 0;
 }
 
 .creator img {
-    border-radius: 100%;
-    -webkit-border-radius: 300px;
-    -moz-border-radius: 500px;
-    max-width: 16%;
-    margin-right: 1rem;
-
+  border-radius: 100%;
+  -webkit-border-radius: 300px;
+  -moz-border-radius: 500px;
+  max-width: 16%;
+  margin-right: 1rem;
 }
 
 .creator p {
-    font-size: 13px;
-    font-weight: 400;
+  font-size: 13px;
+  font-weight: 400;
 }
